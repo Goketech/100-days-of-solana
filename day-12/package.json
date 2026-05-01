@@ -1,0 +1,23 @@
+{
+  "name": "100-days-of-solana",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Goketech/100-days-of-solana.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Goketech/100-days-of-solana/issues"
+  },
+  "homepage": "https://github.com/Goketech/100-days-of-solana#readme",
+  "description": "",
+  "dependencies": {
+    "@solana/kit": "^6.8.0"
+  }
+}
