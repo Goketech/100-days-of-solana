@@ -1,0 +1,14 @@
++-----------------+---------------------------------------+---------------------------------------------+
+| Concept         | Traditional Database                  | Solana Accounts                             |
++-----------------+---------------------------------------+---------------------------------------------+
+| Data location   | Centralized server storage            | Globally distributed ledger                 |
+| Schema          | Fixed structure (SQL/NoSQL tables)    | Flexible byte arrays interpreted by code    |
+| Access control  | Software-level login & permissions    | Cryptographic ownership & program rules     |
+| Cost of storage | Monthly subscription or hosting bills | One-time refundable security deposit (Rent) |
+| Identity/keys   | Database IDs or email addresses       | Cryptographic Public Keys (Addresses)       |
+| Reads           | Database queries (SELECT)             | Network requests (RPC calls)                |
+| Writes          | Data updates via server code          | Signed transactions sent to the chain       |
+| Code vs data    | Logic in app, data in database        | Everything is an account (Code & State)     |
+| Deletion        | Erasing records from disk             | Reclaiming funds and closing accounts       |
+| Visibility      | Hidden behind firewalls by default    | Open and verifiable by everyone             |
++-----------------+---------------------------------------+---------------------------------------------+
